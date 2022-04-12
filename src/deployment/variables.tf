@@ -68,7 +68,7 @@ variable "vm_size" {
 
 variable "os_disk_size_gb" {
   description = "size of the OS disk to attach to the nodes"
-  default     = 512
+  default     = 64
 }
 
 variable "max_pods" {
