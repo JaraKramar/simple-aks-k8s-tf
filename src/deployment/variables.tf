@@ -9,17 +9,17 @@ variable "node_count" {
 
 variable "dns_prefix" {
   description = "DNS Suffix"
-  default     = "runitoncloud"
+  default     = "simple-aks"
 }
 
 variable cluster_name {
   description = "AKS cluster name"
-  default     = "runItOnCloud"
+  default     = "simple-aks"
 }
 
 variable resource_group_name {
   description = "name of the resource group to deploy AKS cluster in"
-  default     = "runitoncloud"
+  default     = "simple-aks"
 }
 
 variable location {
@@ -43,12 +43,12 @@ variable log_analytics_workspace_sku {
 
 variable subnet_name {
   description = "subnet id where the nodes will be deployed"
-  default     = "runitoncloud-subnet"
+  default     = "simple-aks-subnet"
 }
 
 variable vnet_name {
   description = "vnet id where the nodes will be deployed"
-  default     = "runitoncloud-vnet"
+  default     = "simple-aks-vnet"
 }
 
 variable subnet_cidr {
